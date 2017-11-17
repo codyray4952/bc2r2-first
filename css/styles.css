@@ -26,18 +26,6 @@ body{
 	text-align: center;
 }
 
-h2{
-	font-size:28px;
-}
-
-.brand{
-	height:32px;
-}
-
-.nav{
-	margin:0;
-}
-
 .hero img{
 	height:100vh;
 	width:100%;
@@ -60,12 +48,29 @@ h2{
 	line-height: 1;
 }
 
-.hero div{
+.hero nav{
 	position:absolute;
-	left:61%;
-	top:370px;
+	top:360px;
+	left:68%;
 }
 
-.content-col{
-	height:100px;
+.hero nav a{
+	padding:3px;
+	color:#d3d3d3;
+	font-size:20px;
+	border:1px solid #d3d3d3;
+	text-decoration: none;
+	background:#0e0e0e;
+}
+
+.hero nav a:hover{
+	border-color:#0e0e0e;
+	color:#0e0e0e;
+	background:#d3d3d3;
+}
+
+.about-content{
+	margin:0px 8px;
+	border-radius:8px;
+	background:#eeeeee;
 }
