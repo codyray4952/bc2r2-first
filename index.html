@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/CSS">
   </head>
   <body>
@@ -28,13 +28,13 @@
           <h2>About Me</h2>
           <div class="row">
             <div class="col-md-6">
-              <div class="about-content">
+              <div class="content">
                 <h3>Personal</h3>
 
               </div>
             </div>
             <div class="col-md-6">
-              <div class="about-content">
+              <div class="content">
                 <h3>Professional</h3>
 
               </div>
@@ -46,12 +46,23 @@
       <div class="row">
         <div class="col-md-12" id="projects">
           <h2>Projects</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste earum, suscipit, itaque praesentium saepe delectus magnam cumque qui harum sapiente natus quis in laboriosam sunt dolore velit reprehenderit perspiciatis aperiam?</p>
+          <div class="content">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="media/ccos.jpeg" alt="SysMunch">
+              </div>
+              <div class="col-md-8">
+                <h3>SysMunch</h3>
+                <p>SysMunch is a set of APIs for ComputerCraft, a Minecraft mod which adds programmable computers using the LUA scripting language, that aims to make creating an In-Game OS more easily customizable.</p>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>

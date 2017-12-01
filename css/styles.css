@@ -33,10 +33,13 @@ body{
 
 .hero span:nth-of-type(1){
 	position:absolute;
-	left:66%;
+	left:64%;
 	top:145px;
 	color:white;
 	font-size:60px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing: 4px;
 }
 
 .hero span:nth-of-type(2){
@@ -55,7 +58,7 @@ body{
 }
 
 .hero nav a{
-	padding:3px;
+	padding:5px;
 	color:#d3d3d3;
 	font-size:20px;
 	border:1px solid #d3d3d3;
@@ -69,8 +72,28 @@ body{
 	background:#d3d3d3;
 }
 
-.about-content{
+.content{
 	margin:0px 8px;
 	border-radius:8px;
 	background:#eeeeee;
+}
+
+h2{
+	font-size:40px;
+	font-weight:bold;
+}
+
+.content h3{
+	padding:1em 0;
+	font-weight:bold;
+}
+
+.content p {
+	padding:0 3em 1em;
+}
+
+.content img{
+	padding:1em;
+	border-radius:8px;
+	width:100%;
 }
